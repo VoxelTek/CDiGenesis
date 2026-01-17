@@ -260,7 +260,7 @@
 		(remove_unused_layers no)
 		(uuid "c0dd6e6e-6ab9-42ff-970a-ffa905a65611")
 	)
-	(pad "MH" thru_hole circle
+	(pad "MP" thru_hole circle
 		(at 0 -1.9 180)
 		(size 3.45 3.45)
 		(drill 2.3)
@@ -271,13 +271,13 @@
 	(embedded_fonts no)
 	(model "${KIPRJMOD}/3D/KMDGX-8S-N_rB5.IGS"
 		(offset
-			(xyz 0 -6.25 0)
+			(xyz 0 6.75 0)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz -90 -0 -0)
+			(xyz -90 -0 180)
 		)
 	)
 )
