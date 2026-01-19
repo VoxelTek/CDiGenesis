@@ -747,7 +747,7 @@
 			(roundrect_rratio 0.25)
 			(net 22 "unconnected-(U1-PB5-Pad9)")
 			(pinfunction "PB5")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "bee5b90d-9ff7-47b9-8e9e-642a612444d2")
 		)
 		(pad "10" smd custom
@@ -756,7 +756,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 16 "unconnected-(U1-PB4-Pad10)")
 			(pinfunction "PB4")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(options
 				(clearance outline)
 				(anchor circle)
@@ -778,7 +778,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 18 "unconnected-(U1-PB3-Pad11)")
 			(pinfunction "PB3")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(options
 				(clearance outline)
 				(anchor circle)
@@ -811,7 +811,7 @@
 			(roundrect_rratio 0.25)
 			(net 19 "unconnected-(U1-PB1-Pad13)")
 			(pinfunction "PB1")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "58e63805-0b7d-4754-9db1-b98992bb131b")
 		)
 		(pad "14" smd roundrect
@@ -821,7 +821,7 @@
 			(roundrect_rratio 0.25)
 			(net 17 "unconnected-(U1-PB0-Pad14)")
 			(pinfunction "PB0")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "3d8e3992-2641-4a3d-b088-a58b51db5097")
 		)
 		(pad "15" smd custom
@@ -852,7 +852,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 24 "unconnected-(U1-PC1-Pad16)")
 			(pinfunction "PC1")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(options
 				(clearance outline)
 				(anchor circle)
@@ -875,7 +875,7 @@
 			(roundrect_rratio 0.25)
 			(net 23 "unconnected-(U1-PC2-Pad17)")
 			(pinfunction "PC2")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "f53be506-ee94-4dcb-a593-25b440bd7035")
 		)
 		(pad "18" smd roundrect
@@ -885,7 +885,7 @@
 			(roundrect_rratio 0.25)
 			(net 20 "unconnected-(U1-PC3-Pad18)")
 			(pinfunction "PC3")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "64a32a09-6423-457c-a113-0e9ee200c81c")
 		)
 		(pad "19" smd roundrect

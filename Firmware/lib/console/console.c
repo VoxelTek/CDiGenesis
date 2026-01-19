@@ -24,21 +24,17 @@ static FILE USART_stream = FDEV_SETUP_STREAM(usart_putchar, NULL, _FDEV_SETUP_WR
 
 void console_init(uint32_t baud_rate)
 {
+    // Set TX pin as output
+    PORTB.DIR |= PIN2_bm;
+
     // Set the baud rate
     USART0.BAUD = (uint16_t)USART0_BAUD_RATE(baud_rate);
 
-    USART0.CTRLC = (USART_CMODE_SYNCHRONOUS_gc + USART_PMODE_DISABLED_gc + USART_SBMODE_1BIT_gc + USART_CHSIZE_8BIT_gc);
-
-    USART0.CTRLA |= USART_RXCIE_bm;
-
-    // Set TX pin as output
-    PORTA.DIR |= PIN1_bm;
-
-    // Set RX pin as input
-    PORTA.DIR &= ~PIN2_bm;
-
     // Enable the USART transmitter
-    USART0.CTRLB |= (USART_TXEN_bm + USART_RXEN_bm);
+    USART0.CTRLB |= USART_TXEN_bm;
+
+    // No parity, 1 stop bit, 7 data bits (suitable for CDi)
+    USART0.CTRLC = (USART_PMODE_DISABLED_gc + USART_SBMODE_1BIT_gc + USART_CHSIZE_7BIT_gc);
 
     // Attach stdout to the USART stream
     stdout = &USART_stream;

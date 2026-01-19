@@ -2074,12 +2074,44 @@
 		(uuid "148d07dc-7fed-4a86-b643-0800c5ec55e2")
 	)
 	(no_connect
+		(at 48.26 100.33)
+		(uuid "1ecd0655-a3a1-4e89-9a3f-b2e7e1d5b0d7")
+	)
+	(no_connect
+		(at 78.74 100.33)
+		(uuid "43e340b2-fc34-4577-bfb4-6ad562dae54d")
+	)
+	(no_connect
+		(at 78.74 105.41)
+		(uuid "6cd50cfc-984a-4f84-b71b-31416324bf4c")
+	)
+	(no_connect
+		(at 48.26 95.25)
+		(uuid "77c6588e-d3de-4031-8353-376877b65eac")
+	)
+	(no_connect
 		(at 120.65 111.76)
 		(uuid "8d308a8b-8dd1-42af-b069-597ea27a0b88")
 	)
 	(no_connect
+		(at 78.74 102.87)
+		(uuid "b81c8414-ea00-4456-89dc-38ce81fdc778")
+	)
+	(no_connect
+		(at 78.74 95.25)
+		(uuid "d582589d-c994-4b12-9862-53a5195bbf47")
+	)
+	(no_connect
+		(at 48.26 97.79)
+		(uuid "d76804c1-43a5-4980-a8bc-ab4e08e8e266")
+	)
+	(no_connect
 		(at 120.65 116.84)
 		(uuid "e2405c9d-d0b9-4993-aba7-4e63625cc090")
+	)
+	(no_connect
+		(at 78.74 92.71)
+		(uuid "f209fe2f-6df4-4a31-9bc8-3fd2dae15c2f")
 	)
 	(wire
 		(pts
@@ -2173,7 +2205,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 97.79) (xy 86.36 97.79)
+			(xy 78.74 97.79) (xy 91.44 97.79)
 		)
 		(stroke
 			(width 0)
@@ -2552,7 +2584,7 @@
 		(uuid "e304863f-2979-42b9-9c46-d3edbd9ff249")
 	)
 	(label "RXD"
-		(at 86.36 97.79 180)
+		(at 91.44 97.79 180)
 		(effects
 			(font
 				(size 1.27 1.27)
