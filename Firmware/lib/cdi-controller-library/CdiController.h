@@ -12,8 +12,9 @@
 #ifndef __CdiController_h__
 #define __CdiController_h__
 
-#include "Arduino.h"
-#include "CdiSerial.h"
+#include <stdio.h>
+#include <stdint.h>
+#include <avr/io.h>
 
 enum CdiDevices: uint8_t {
 	RELATIVE = 0b11001101, //'M' Relative Input Devices (Mouse, etc)
