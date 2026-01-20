@@ -2090,8 +2090,20 @@
 		(uuid "77c6588e-d3de-4031-8353-376877b65eac")
 	)
 	(no_connect
+		(at 78.74 87.63)
+		(uuid "8b29d2a4-95e5-43fc-8dc0-9a4332ced600")
+	)
+	(no_connect
 		(at 120.65 111.76)
 		(uuid "8d308a8b-8dd1-42af-b069-597ea27a0b88")
+	)
+	(no_connect
+		(at 182.88 80.01)
+		(uuid "a3b0b7cc-6d50-40d9-b1ab-84a38bb7526d")
+	)
+	(no_connect
+		(at 182.88 92.71)
+		(uuid "afb35572-66c7-4c00-ad9b-6609d60f0d4e")
 	)
 	(no_connect
 		(at 78.74 102.87)
@@ -2115,16 +2127,6 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 92.71) (xy 182.88 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "025b5ed0-2149-47ba-94fb-434a91b1a3da")
-	)
-	(wire
-		(pts
 			(xy 100.33 116.84) (xy 105.41 116.84)
 		)
 		(stroke
@@ -2145,13 +2147,23 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 82.55) (xy 90.17 82.55)
+			(xy 138.43 90.17) (xy 147.32 90.17)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "377246fe-1854-4210-99a9-bfa613e7c760")
+		(uuid "260b2a16-cfd6-4855-937a-2851a90f5a95")
+	)
+	(wire
+		(pts
+			(xy 147.32 86.36) (xy 147.32 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "383dad35-1d7f-4aba-9a9d-0c131b3cd937")
 	)
 	(wire
 		(pts
@@ -2175,7 +2187,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 87.63) (xy 90.17 87.63)
+			(xy 78.74 85.09) (xy 90.17 85.09)
 		)
 		(stroke
 			(width 0)
@@ -2355,7 +2367,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 85.09) (xy 90.17 85.09)
+			(xy 78.74 82.55) (xy 90.17 82.55)
 		)
 		(stroke
 			(width 0)
@@ -2403,7 +2415,7 @@
 		)
 		(uuid "f3805ce7-dd65-4a3e-84da-09643e151b13")
 	)
-	(label "BTN_B{slash}A"
+	(label "BTN_B"
 		(at 90.17 74.93 180)
 		(effects
 			(font
@@ -2423,7 +2435,7 @@
 		)
 		(uuid "05f1d2d3-93b3-4455-a83b-d4acca841dcc")
 	)
-	(label "BTN_B{slash}A"
+	(label "BTN_B"
 		(at 172.72 97.79 0)
 		(effects
 			(font
@@ -2453,16 +2465,6 @@
 		)
 		(uuid "4ea7b906-221d-451a-b49c-7b7e7991f67f")
 	)
-	(label "Select"
-		(at 90.17 82.55 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "6e0b96a3-5d43-4437-b910-a094e2df9a3f")
-	)
 	(label "RTS"
 		(at 40.64 92.71 0)
 		(effects
@@ -2473,17 +2475,7 @@
 		)
 		(uuid "772e380b-b7d0-4e6b-9bca-8a87db78de0b")
 	)
-	(label "Select"
-		(at 172.72 92.71 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "97636a82-e107-4127-8527-b2ab46fc4a0f")
-	)
-	(label "BTN_C{slash}S"
+	(label "BTN_C"
 		(at 172.72 82.55 0)
 		(effects
 			(font
@@ -2524,7 +2516,7 @@
 		(uuid "bb1d55be-92f9-43bc-8da5-ef3a3aff6cb0")
 	)
 	(label "D_Right"
-		(at 90.17 85.09 180)
+		(at 90.17 82.55 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2542,6 +2534,16 @@
 			(justify right bottom)
 		)
 		(uuid "cbf0eeb3-ee90-4c23-8ad9-5be59ee030a7")
+	)
+	(label "Select"
+		(at 138.43 90.17 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "cce2a124-fa95-4429-9eb2-cd8ef8e49698")
 	)
 	(label "D_Up"
 		(at 172.72 100.33 0)
@@ -2563,8 +2565,8 @@
 		)
 		(uuid "dcdb3e96-18e9-4b54-af35-eed7f57921b6")
 	)
-	(label "BTN_C{slash}S"
-		(at 90.17 87.63 180)
+	(label "BTN_C"
+		(at 90.17 85.09 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3783,16 +3785,16 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 182.88 80.01 0)
+		(at 147.32 86.36 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "f15a88e6-7752-4f1c-b15c-15800d08d37b")
-		(property "Reference" "#PWR05"
-			(at 182.88 83.82 0)
+		(uuid "e28fcc8a-d74d-4966-8312-c8419d2bcef4")
+		(property "Reference" "#PWR011"
+			(at 147.32 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3801,7 +3803,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 182.88 74.93 0)
+			(at 147.32 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3809,7 +3811,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 182.88 80.01 0)
+			(at 147.32 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3818,7 +3820,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 182.88 80.01 0)
+			(at 147.32 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3827,7 +3829,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 182.88 80.01 0)
+			(at 147.32 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3836,12 +3838,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "4f86c617-94cb-4ab8-a247-9e1a2f94eae8")
+			(uuid "43f575fe-8567-4c3d-b401-c58d8a4731ef")
 		)
 		(instances
 			(project "CDiGenesis"
 				(path "/95e9b0e3-969e-441c-acf7-eed452ae87df"
-					(reference "#PWR05")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
