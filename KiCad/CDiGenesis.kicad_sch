@@ -2403,7 +2403,7 @@
 		)
 		(uuid "f3805ce7-dd65-4a3e-84da-09643e151b13")
 	)
-	(label "BTN_A{slash}B"
+	(label "BTN_B{slash}A"
 		(at 90.17 74.93 180)
 		(effects
 			(font
@@ -2423,7 +2423,7 @@
 		)
 		(uuid "05f1d2d3-93b3-4455-a83b-d4acca841dcc")
 	)
-	(label "BTN_A{slash}B"
+	(label "BTN_B{slash}A"
 		(at 172.72 97.79 0)
 		(effects
 			(font
@@ -2483,7 +2483,7 @@
 		)
 		(uuid "97636a82-e107-4127-8527-b2ab46fc4a0f")
 	)
-	(label "BTN_S{slash}C"
+	(label "BTN_C{slash}S"
 		(at 172.72 82.55 0)
 		(effects
 			(font
@@ -2563,7 +2563,7 @@
 		)
 		(uuid "dcdb3e96-18e9-4b54-af35-eed7f57921b6")
 	)
-	(label "BTN_S{slash}C"
+	(label "BTN_C{slash}S"
 		(at 90.17 87.63 180)
 		(effects
 			(font
