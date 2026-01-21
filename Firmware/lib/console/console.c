@@ -34,7 +34,7 @@ void console_init(uint32_t baud_rate)
     USART0.CTRLB |= USART_TXEN_bm;
 
     // No parity, 1 stop bit, 7 data bits (suitable for CDi)
-    USART0.CTRLC = (USART_PMODE_DISABLED_gc + USART_SBMODE_1BIT_gc + USART_CHSIZE_7BIT_gc);
+    USART0.CTRLC = (USART_PMODE_DISABLED_gc + USART_SBMODE_2BIT_gc + USART_CHSIZE_7BIT_gc);
 
     // Attach stdout to the USART stream
     stdout = &USART_stream;
