@@ -66,15 +66,15 @@ void loop() {
     b1 |= (x & 0b111111);
     b2 |= (y & 0b111111);
 
-    printf(b0);
-    printf(b1);
-    printf(b2);
+    putchar(b0);
+    putchar(b1);
+    putchar(b2);
     _delay_ms(5);
 }
 
 void initCDi() {
     _delay_ms(100);
-    printf(mode);
+    putchar(mode);
 }
 
 void refreshButtonState() {
