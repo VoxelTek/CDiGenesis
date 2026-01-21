@@ -79,11 +79,11 @@ void initCDi() {
 
 void refreshButtonState() {
     gpio_set_high(SELECT); // Disable SELECT
-    _delay_ms(2);
+    _delay_ms(3);
     buttonState = (~PORTA.IN & 0b11000000) + ((~PORTA.IN & 0b0001110) << 1); // Get D-Pad, B, C
 
     gpio_set_low(SELECT); // Enable SELECT
-    _delay_ms(2);
+    _delay_ms(3);
     while ((PORTA.IN & 0b01010000)) { // Wait until D-Left and D-Right pressed
         
     }
